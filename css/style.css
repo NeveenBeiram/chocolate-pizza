@@ -1,55 +1,112 @@
 
-
 header img{
     float: left;
+    padding-top: 30px;
 }
 
-.s1{
+.s1 p{
     float: left;
-    padding: 0;
+    padding: 10;
 }
+
+.firstNav{
+    height: 30px;
+    width: 100%;
+}
+
 .p1{
-    padding-left: 0;
-    float: left;
+    padding-top: 0px;
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-style:italic;
+    font-size: x-large;
+    font-weight: bold;
+    padding-right: 40px;
+text-transform: uppercase;
+}
+
+.s2{
+    float:right;
+    
+}
+.s3 {
+    clear: both;
+    padding-top: 5px ;
+    text-transform: capitalize;
+}
+
+.s3 p{
+   color: grey; 
+   text-transform: uppercase;
+}
+
+.p1 span{
+    text-transform: capitalize;
+    font-style: normal;
+    font-size: small;
+    font-weight: normal;
+}
+
+.big{ 
+  line-height: 2;
 }
 
 
-.nav2{
-    height: 200px;
-    padding: 0;
-}
-
- .s1{
-     float: left;
- }
- .nav2{
-     float: right;
- }
  
+ .bgImg{
+background-image:url("/chocolate-pizza/img/list-bg.png"); 
+}
 
- .s3{
-     padding: 100px 0;
- }
+.lastS{
+    clear: both;
+    float: right;
+    
+}
+.lI{
+    padding-left: 0px;
+    padding-top: 20px;
+}
+.lastS{
+    clear: both;   
 
- .bg-img{
-     background-image: url(./img/list-bg.png);
-     background-repeat:no-repeat ;
-     height: 100%;
- }
+}
+.lastS h3{
+    color: darkslategray;
+text-transform:capitalize;
+font-weight: bolder;
+}
+.lastS p{
+    color: dimgray;
+}
+button{
+    background-color: firebrick;
+    width: 100px;
+    height: 50px;
+float:right;
+}
+
 footer img{
     padding: 0 50%;
+    
 }
- .finalDiv{
+
+.finalDiv{
      padding-left: 500px;
-
  }
- button{
-     background-color: brown;
- margin-left: 70%;
-    }
 
-    body{
+ button{
+   background-color: brown;
+   margin-left: 70%;
+}
+
+
+body{
 padding-left: 25%;
 padding-right: 25%;
-    
-    }
+
+}
+
+#r1{
+    margin-right:50%;  
+    margin-left: 10%;
+}
