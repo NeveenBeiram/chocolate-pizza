@@ -26,8 +26,10 @@ text-transform: uppercase;
 }
 
 .s2{
-    float:right;
-    
+    margin-top: 0px;
+    float: left;
+margin-left: 270px;   
+ 
 }
 .s3 {
     clear: both;
@@ -49,6 +51,12 @@ text-transform: uppercase;
 
 .big{ 
   line-height: 2;
+  margin-left: 70px;
+}
+
+.big p {
+    
+    font-size: large;
 }
 
 
@@ -64,25 +72,29 @@ background-image:url("/chocolate-pizza/img/list-bg.png");
 }
 .lI{
     padding-left: 0px;
-    padding-top: 20px;
+    padding-top: 70px;
 }
 .lastS{
     clear: both;   
+    margin: 0px 0px;
 
 }
 .lastS h3{
     color: darkslategray;
 text-transform:capitalize;
 font-weight: bolder;
+margin: 0px 10px;
 }
 .lastS p{
     color: dimgray;
+    
 }
 button{
     background-color: firebrick;
     width: 100px;
     height: 50px;
 float:right;
+margin:20px 10px;
 }
 
 footer img{
@@ -90,9 +102,12 @@ footer img{
     
 }
 
-.finalDiv{
-     padding-left: 500px;
- }
+footer .finalDiv p{
+margin-left: 290px;
+}
+footer .finalDiv p:last-child{
+    margin-left: 43%;
+}
 
  button{
    background-color: brown;
@@ -107,6 +122,10 @@ padding-right: 25%;
 }
 
 #r1{
-    margin-right:50%;  
-    margin-left: 10%;
+    margin-right:20px;  
+    margin-left: 90px;
+}
+#r2{
+    margin-right:15px ;
+    margin-left: 100px;
 }
