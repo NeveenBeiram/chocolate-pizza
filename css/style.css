@@ -1,4 +1,13 @@
 
+
+header div p {
+    padding-top: 20%;
+    font-family:serif;
+}
+header div p span{
+    font-family: fantasy;
+} 
+
 header img{
     float: left;
     padding-top: 30px;
