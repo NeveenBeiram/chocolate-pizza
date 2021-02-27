@@ -129,3 +129,13 @@ padding-right: 25%;
     margin-right:15px ;
     margin-left: 100px;
 }
+
+
+
+header div p {
+    padding-top: 20%;
+    font-family:serif;
+}
+header div p span{
+    font-family: fantasy;
+}
